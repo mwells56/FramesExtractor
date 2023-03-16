@@ -12,14 +12,11 @@ public class FrameExtractor {
         // Load openCV library
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 
-        // Prompt user for video file input and ouput locations
-        Scanner userInput = new Scanner(System.in);
-        System.out.print("Please paste the path to your video file: ");
-        String videoFilePath = userInput.next();
+        // Paste absolute path to video here
+        String videoFilePath = "/video/file/path/here";
 
-        // Set path to save frames
-        System.out.print("Please paste the path where you would like the frames to be saved: ");
-        String outputFilePath = userInput.next();
+        // Paste absolute path to store extracted frames here
+        String outputFilePath = "/folder/to/store/frames/here";
 
         // Run saveFrames method
         saveFrames(videoFilePath, outputFilePath);
