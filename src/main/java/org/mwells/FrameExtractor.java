@@ -1,11 +1,9 @@
-package org.example;
+package org.mwells;
 
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.videoio.VideoCapture;
-
-import java.util.Scanner;
 
 public class FrameExtractor {
     public static void main(String[] args) {
